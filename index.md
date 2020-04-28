@@ -1,3 +1,3 @@
 ## About
 
-Minecraft meets mushy machines
+Minecraft meets mushy machines.
