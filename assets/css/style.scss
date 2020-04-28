@@ -1,10 +1,10 @@
 ---
 ---
 
-// Headers
-header-heading-color: #fff;
-header-bg-color: #159957;
-header-bg-color-secondary: #28500;
+:root {
+    --header-bg-color: #159957;
+    --header-bg-color-secondary: #28500;
+}
 
 @import "{{ site.theme }}";
 
