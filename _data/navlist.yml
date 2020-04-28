@@ -1,0 +1,20 @@
+docs:
+
+- pagetitle: About
+  url: /
+  
+- pagetitle: Videos
+  url: /videos
+  
+- pagetitle: Images
+  url: /images
+  
+- pagetitle: Paper
+  url: /paper 
+  
+- pagetitle: Code
+  url: /code
+  
+- pagetitle: Team
+  url: /team 
+  
