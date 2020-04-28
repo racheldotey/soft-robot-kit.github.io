@@ -3,17 +3,14 @@ docs:
 - pagetitle: About
   url: /
   
-- pagetitle: Videos
-  url: /videos
+- pagetitle: Design
+  url: /design
   
-- pagetitle: Images
-  url: /images
+- pagetitle: Build
+  url: /build
   
-- pagetitle: Paper
-  url: /paper 
-  
-- pagetitle: Code
-  url: /code
+- pagetitle: Papers
+  url: /papers
   
 - pagetitle: Team
   url: /team 
