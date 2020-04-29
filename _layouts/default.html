@@ -17,7 +17,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="stylesheet" href="{{ '/assets/plugins/simple-nav/css/nav.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    
   </head>
   <body>
     <header class="page-header" role="banner">
@@ -47,4 +50,7 @@
       </footer>
     </main>
   </body>
+
+
+  <script src="{{ '/assets/plugins/simple-nav/js/simply-nav.js?v=' | append: site.github.build_revision | relative_url }}"></script>
 </html>
