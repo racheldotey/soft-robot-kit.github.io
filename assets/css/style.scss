@@ -1,7 +1,87 @@
 ---
 ---
 
-$header-bg-color: #159957 !default;
-$header-bg-color-secondary: #285000 !default;
+$header-bg-color: #007155  !default;
+$header-bg-color-secondary: #01533F  !default;
 
 @import "{{ site.theme }}";
+
+
+
+/* GLOBAL */
+body {
+    color: #444;
+
+    /* Nice link transition effect - UVM Standard */
+    a:hover, a:active {
+        -webkit-transition: all .15s ease-in-out;
+        -moz-transition: all .15s ease-in-out;
+        -o-transition: all .15s ease-in-out;
+        transition: all .15s ease-in-out;
+    }
+}
+
+/* Site Header */
+header.nav-wrapper {
+    .nav {
+        max-width: 64rem;
+        .logo-link {
+            white-space: nowrap;
+            
+            &:link, &:visited {
+                color: #B2D23E;
+            }
+
+            &:hover, &:focus {
+                color: #f47d20;
+                text-decoration: none;
+            }
+        }
+
+        .nav-list .list .item {
+            .link {
+                white-space: nowrap;
+                
+                &:link, &:visited {
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+                &:hover, &:focus {
+                    color: #B2D23E;
+                    text-decoration: none;
+                }
+            }
+        } 
+    }
+}
+@media (max-width: 799px) {
+    header .nav-list > .list > .item {
+        border-color: rgba(255,255,255,0.2);
+    }
+}
+
+/* Page content */
+.page-header {     
+  margin-top: 4.5rem;
+  text-align: center;
+
+  .content {
+      max-width: 64rem;
+      margin: 0 auto;
+  }
+}
+
+main.main-content {
+    /* Links */
+    a:link, a:visited {
+        color: #444;
+        text-decoration: none;
+        border-bottom: 1px dashed #444;
+    }
+
+    a:hover, a:focus {
+        border-bottom: 1px dashed #f47d20;
+        color: #f47d20;
+    }
+}
