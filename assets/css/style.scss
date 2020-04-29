@@ -84,6 +84,38 @@ main.main-content {
         border-bottom: 1px dashed #f47d20;
         color: #f47d20;
     }
+
+    /* Positioning */
+    .pull-left {
+        float: left;
+        margin-left: 0;
+        margin-right: 1rem;
+    }
+
+    .pull-right {
+        float: right;
+        margin-right: 0;
+        margin-left: 1rem;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    /* Horizontal Rule */
+    .main-content hr {
+        height: 1px;
+        margin: 2rem 0;
+        background-color: #eff0f1;
+    }
+}
+
+/* Images */
+.picture-frame {
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
 }
 
 /* Site Footer */
